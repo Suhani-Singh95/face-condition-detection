@@ -1,0 +1,17 @@
+# Ensure text files use native line endings (CRLF on Windows, LF on Unix)
+* text=auto
+
+# Explicitly set LF for cross-platform files
+*.dart text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.cc text eol=lf
+*.h text eol=lf
+*.cmake text eol=lf
+*.swift text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
